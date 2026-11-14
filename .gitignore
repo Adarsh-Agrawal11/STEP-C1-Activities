@@ -1,1 +1,22 @@
 *.class
+@"
+
+# Generated build output
+Activity*/bin/
+
+# Generated runtime files
+Activity*/data/*.ser
+Activity*/test_*.db
+
+# Generated backup files
+Activity*/test_data/*.bak.*
+"@ | Add-Content .gitignore
+# Generated build output
+Activity*/bin/
+
+# Generated runtime files
+Activity*/data/*.ser
+Activity*/test_*.db
+
+# Generated backup files
+Activity*/test_data/*.bak.*
